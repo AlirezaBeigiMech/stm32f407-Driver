@@ -1,0 +1,12 @@
+Added the LIS3DH Read write function:
+- reads and writes values from the accelerometer registers using the funcions mentioned below
+
+Added the LISDH_ACCELERO_IO_Read function:
+- this function reads the data from the accelerometer, it then stores the data in a buffer. 
+-send a 16 bit data, to initilize the registers and send a dummy values to receive the inital garbage value, allows for actual data to be read 
+
+Added the LISDH_ACCELERO_Init() function:
+- 
+
+Added the LISDH_ACCELERO_GetKYZ function:
+- 
